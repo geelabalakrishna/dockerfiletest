@@ -12,7 +12,7 @@ ENV version-1="v4"
 RUN echo This Application is path based testing /usr/share/nginx/html/app/v1/ and version is : $version-1 --------- > /usr/share/nginx/html/app/v1/index.html
 RUN echo This Application is path based testing /usr/share/nginx/html/app/v2/ and version is : $version-2 --------- > /usr/share/nginx/html/app/v2/index.html
 RUN echo This Application is path based testing /usr/share/nginx/html/app/v3/ and version is : $version-3 --------- > /usr/share/nginx/html/app/v3/index.html
-RUN echo This Application is path based testing /usr/share/nginx/html/app/v4/ and version is : $version-13 --------- > /usr/share/nginx/html/app/v4/index.html
+RUN echo This Application is path based testing /usr/share/nginx/html/app/v4/ and version is : $version-14 --------- > /usr/share/nginx/html/app/v4/index.html
 RUN service nginx restart
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
